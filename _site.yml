@@ -1,14 +1,14 @@
-name: "HW4 Website!"
+name: "hi!"
 output_dir: "."
 navbar:
   title: "Home"
   right:
-    - text: "About"
+    - text: "My Resume"
       href: about.html
     - icon: fa-envelope fa-lg
-      href: mailto:<you@youremail.com>
+      href: mailto:<ym3077@cumc.columbia.edu>
     - icon: fa-github fa-lg
-      href: http://github.com/<YOUR_GH_NAME>/
+      href: https://github.com/YuyueMa311
 output:
   html_document:
     theme: cerulean

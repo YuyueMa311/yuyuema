@@ -1,0 +1,50 @@
+---
+title: "My Resume"
+output: html_document
+---
+
+### EDUCATION
+Columbia University, Mailman School of Public Health                                  
+Master of Science in Epidemiology                                         
+Major GPA: 3.9/4.0	                                                      
+Sep. 2024 - May. 2026      
+Relevant Coursework: Venture Capital: Funding Innovation in Healthcare, Strategic Investment in Healthcare, Healthcare Policy and Political System, Analysis of Categorical Data, Biostatistics, Infectious Disease                 
+            
+                  
+University of California, San Diego	                                                  
+Major in Cell and Molecular Biology	 
+Major GPA: 3.9/4.0	                                                      
+Sep. 2019 -  Jun. 2023
+
+
+### FINANCIAL/INVESTMENT EXPERIENCE
+
+SDIC Securities CO., LTD.	                                                            Shenzhen, China
+Biopharmaceuticals Team, Assistant Analyst
+May. 2025 – Sep. 2025     
+- Performed in-depth fundamental analysis on companies, including history reviews, M&A activities, R&D capabilities, etc. Participated in strategic investment meetings and 5 roadshows and prepared weekly and monthly reports.      
+- Company Research: Analyzed the innovative drug pipelines of coverage companies, conducted competitor benchmarking and clinical results analysis by target or therapeutic area, sized the total addressable market, developed a company DCF valuation model, and independently authored three deep-dive research reports for Mabwell Bioscience (688062 SH), Gan & Lee Pharmaceuticals. (603087 SH), and Jiuzhou Pharma (603456 SH).      
+- Industry Research: Focused on oncology bispecific antibodies (e.g., PD-1/IL-2α, EGFR&HER3), performed industry chain analysis and technology pathway research. Tracked and analyzed companies like Innovent Biologics (1801 HK) and Sichuan Biokin Pharma (688506 SH), delivered industry reports on competitive dynamics, landscape, and technological trends.     
+- Information Disclosure & Tracking: Independently designed a cores data tracking database sourcing from Chinese and U.S. regulatory databases (NMPA, CDE, ClinicalTrials.gov), visualized the database and provided periodic clinical registration observation reports for covered companies and clients.
+                            
+               
+                 
+                      
+### RESEARCH EXPERIENCE
+Columbia University, Center for Infection & Immunity
+Research Assistant
+Oct. 2024 - Now                  
+- Processed global lab samples via VirCapSeq-VERT workflow to enhance viral detection sensitivity and specificity.                    
+- Developed scripts to clean raw sequencing data, identify viral species via NCBI database comparison, and generate standardized analytical reports.                     
+- Supported emerging virus screening, genomic analysis, and reporting for infectious disease research
+                        
+                        
+                    
+### SKILLS/INTERESTS
+Languages: Mandarin (Native), English, Cantonese               
+Computer: Proficient in Microsoft Office, Python, R, SQL, SAS, Wind, Choice           
+Interest: Film Photography, Tennis, Classical Music, LEGO, Reading, Travel, Museum Visiting
+                         
+                      
+                           
+Go back to the [homepage](index.html).
