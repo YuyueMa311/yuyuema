@@ -1,0 +1,72 @@
+---
+title: "instacart_dashboard"
+output: 
+  flexdashboard::flex_dashboard:
+    orientation: columns
+    vertical_layout: fill
+---
+
+```{r setup, include=FALSE}
+library(flexdashboard)
+library(tidyverse)
+library(p8105.datasets)
+library(plotly)
+
+data("instacart")
+instacart = instacart |> sample_n(5000)
+```
+
+Column {data-width=600}
+-----------------------------------------------------------------------
+
+### Chart A
+
+```{r}
+hour_day = instacart |>
+  group_by(order_dow, order_hour_of_day) |>
+  summarize(n_orders = n())
+
+plot_ly(
+  data = hour_day, x = ~order_hour_of_day, y = ~n_orders, color = ~as.factor(order_dow), type = "scatter", mode = "markers") |>
+  layout(
+    title = "Orders by Hour of Day and Day of Week",
+    xaxis = list(title = "Hour of the Day"),
+    yaxis = list(title = "Number of Orders"),
+    legend = list(title = list(text = "Day of Week")))
+```
+
+Column {data-width=400}
+-----------------------------------------------------------------------
+
+### Chart B
+
+```{r}
+aisle_plot = instacart |>
+  group_by(aisle) |>
+  summarize(n_orders = n()) |>
+  filter(n_orders > 50) |>
+  arrange(n_orders) |>
+  mutate(aisle = fct_reorder(aisle, n_orders)) 
+
+plot_ly(
+  aisle_plot, x = ~aisle, y = ~n_orders, type = "bar", colors = "viridis") |>
+  layout(
+    title = "Items ordered by aisle (>50 orders)",
+    xaxis = list(title = "Aisle", tickangle = 90),
+    yaxis = list(title = "Number of items ordered"))
+```
+
+### Chart C
+
+```{r}
+aisle_sample = instacart |>
+  filter(aisle %in% c("fresh vegetables", "fresh fruits", "yogurt", "frozen meals"))
+
+plot_ly(
+  data = aisle_sample, x = ~aisle, y = ~add_to_cart_order, type = "box", colors = "viridis") |>
+  layout(
+    title = "Distribution of Add-to-Cart Order for Selected Aisles",
+    xaxis = list(title = "Aisle"),
+    yaxis = list(title = "Add-to-Cart Position"))
+```
+

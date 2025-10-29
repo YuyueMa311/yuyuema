@@ -7,6 +7,8 @@ navbar:
       href: about.html
     - text: "My Resume"
       href: about.html
+    - text: "Dashboard"
+      href: instacart_dashboard.html 
     - icon: fa-envelope fa-lg
       href: mailto:ym3077@cumc.columbia.edu
     - icon: fa-github fa-lg
