@@ -5,8 +5,6 @@ navbar:
   right:
     - text: "My Resume"
       href: about.html
-    - text: "My Resume"
-      href: about.html
     - text: "Dashboard"
       href: instacart_dashboard.html 
     - icon: fa-envelope fa-lg
